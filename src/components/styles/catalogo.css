@@ -1,0 +1,46 @@
+/* Estilos para el componente de catálogo de productos */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.catalogo-container {
+    max-width: 700px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.filtros {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.lista-productos {
+    list-style-type: none;
+    padding: 0;
+}
+
+.producto-item {
+    border: 1px solid #eee;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.producto-nombre {
+    font-weight: bold;
+}
+
+.producto-precio {
+    color: #333;
+}

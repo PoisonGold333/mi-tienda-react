@@ -31,7 +31,6 @@ function CatalogoProductos() {
     }, [terminoBusqueda, categoriaSeleccionada])
 
     useEffect(() => {
-        // Simular carga inicial
         setTimeout(() => {
             setIsLoading(false);
         }, 1000);
